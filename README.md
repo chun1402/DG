@@ -12,6 +12,7 @@ tomcat = 웹 페이지에 자바 서버 페이지(jsp)를 실행 할 수 있게 
 > login.jsp라는 자바 서버 페이지를 찾아서 실행한다.
 
 실행 후 tomcat은 longin.jsp를 클라(웹)에 띄워 응답한다.
+
 Eclipse를 통해 Tomcat에서 실행하는 JSP 파일은 Eclipse 프로젝트 디렉토리 내에 WebContent 디렉토리 (또는 해당 디렉토리의 하위 디렉토리)에 저장
 컴파일된 jsp 파일은 기본적으로 Tomcat 환경의 work 폴더에 저장된다. work 폴더 안에 Catalina 하위 폴더에 localhost로 기본 설정된 도메인 이름을 나타내는 하위 폴더가 있다.
 
