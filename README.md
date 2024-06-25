@@ -36,18 +36,18 @@ HTTP (HyperText Transfer Protocol) =
 
 JSP: 자바를 기반으로 웹 문서를 동적으로 생성할 수 있는 쉽고 강력한 방법을 제공해주고, 보안성이 뛰어나다. (대규모)
 
-[
-  (Tomcat을 Eclipse에서 사용하여 JSP 파일을 실행할 때, 그 JSP 파일은 일반적으로 Eclipse 프로젝트 디렉토리에 저장됩니다. 보다 자세히 설명하자면:
+>[
+>  (Tomcat을 Eclipse에서 사용하여 JSP 파일을 실행할 때, 그 JSP 파일은 일반적으로 Eclipse 프로젝트 디렉토리에 저장됩니다. 보다 자세히 설명하자면:
   
-  Eclipse 워크스페이스: Eclipse는 기본적으로 사용자가 지정한 워크스페이스 디렉토리에 프로젝트를 저장합니다. 예를 들어, 워크스페이스가 ~/workspace라면 프로젝트는 ~/workspace/프로젝트명과 같이 저장됩니다.
+>  Eclipse 워크스페이스: Eclipse는 기본적으로 사용자가 지정한 워크스페이스 디렉토리에 프로젝트를 저장합니다. 예를 들어, 워크스페이스가 ~/workspace라면 프로젝트는 ~/workspace/프로젝트명과 같이 저장됩니다.
   
-  Web 콘텐츠 디렉토리: Eclipse 프로젝트 내에서 JSP 파일은 일반적으로 WebContent (또는 WebContent/WEB-INF) 디렉토리에 저장됩니다. 이 디렉토리는 JSP 파일, HTML 파일, CSS, JavaScript 등과 같은 웹 애플리케이션 리소스가 위치하는 곳입니다.
+>  Web 콘텐츠 디렉토리: Eclipse 프로젝트 내에서 JSP 파일은 일반적으로 WebContent (또는 WebContent/WEB-INF) 디렉토리에 저장됩니다. 이 디렉토리는 JSP 파일, HTML 파일, CSS, JavaScript 등과 같은 웹 애플리케이션 리소스가 위치하는 곳입니다.
   
-  정확한 위치: WebContent 디렉토리 내에서 JSP 파일의 정확한 위치는 프로젝트 구조 및 JSP 파일이 위치한 곳에 따라 달라집니다. 예를 들어, WebContent 바로 아래에 JSP 파일을 생성했다면 WebContent 아래에 바로 있을 것입니다. 만약 WebContent/jsp와 같은 하위 디렉토리에 위치했다면 해당 디렉토리 안에 있을 것입니다.
+>  정확한 위치: WebContent 디렉토리 내에서 JSP 파일의 정확한 위치는 프로젝트 구조 및 JSP 파일이 위치한 곳에 따라 달라집니다. 예를 들어, WebContent 바로 아래에 JSP 파일을 생성했다면 WebContent 아래에 바로 있을 것입니다. 만약 WebContent/jsp와 같은 하위 디렉토리에 위치했다면 해당 디렉토리 안에 있을 것입니다.
   
-  JSP 접근: Eclipse에서 Tomcat을 통해 웹 애플리케이션을 실행할 때, Tomcat은 임시 디렉토리를 사용하여 애플리케이션을 배포합니다. JSP 파일은 이 배포된 위치에서 Tomcat에 의해 제공됩니다. Eclipse에서는 이 임시 디렉토리에 직접적으로 프로젝트 디렉토리 내에 저장된 JSP 파일을 배치하지 않습니다.
+>  JSP 접근: Eclipse에서 Tomcat을 통해 웹 애플리케이션을 실행할 때, Tomcat은 임시 디렉토리를 사용하여 애플리케이션을 배포합니다. JSP 파일은 이 배포된 위치에서 Tomcat에 의해 제공됩니다. Eclipse에서는 이 임시 디렉토리에 직접적으로 프로젝트 디렉토리 내에 저장된 JSP 파일을 배치하지 않습니다.
   
-  요약하면, Eclipse를 통해 Tomcat에서 실행하는 JSP 파일은 Eclipse 프로젝트 디렉토리 내에 WebContent 디렉토리 (또는 해당 디렉토리의 하위 디렉토리)에 저장됩니다.)
+>  요약하면, Eclipse를 통해 Tomcat에서 실행하는 JSP 파일은 Eclipse 프로젝트 디렉토리 내에 WebContent 디렉토리 (또는 해당 디렉토리의 하위 디렉토리)에 저장됩니다.)
 ]
 
 
