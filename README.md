@@ -5,6 +5,7 @@
 
 **tomcat** = 웹 페이지에 자바 서버 페이지(jsp)를 실행 할 수 있게 만들어 주는 웹 애플리케이션 서버 (가상의 서버)
 > ex) http://localhost:8080/WebTEST_1/login.jsp == http://127.0.0.1:8080/WebTEST_1/login.jsp
+> Tomcat은 이 사설 IP 주소(localhost)를 사용하여 로컬에서 웹 애플리케이션을 실행하고 테스트할 수 있도록 도와주는 역할이다
 
 > http: 브라우저에서 클라(웹)와 서버(톰캣) 사이에 이루어지는 요청을 
 > localhost: 자신의 컴퓨터(가상으로 인터넷망에 연결되어 있는 것처럼 할당하는 인터넷 주소)에 
@@ -55,11 +56,11 @@ Eclipse를 통해 Tomcat에서 실행하는 JSP 파일은 Eclipse 프로젝트 �
 **공인 IP (public IP)**: 외부에 공개되어 있는 IP 주소 (인터넷 서비스 공급자(kt,skt,U+)가 제공하는 IP주소, 인터넷이 사용자를 찾을 수 있도록 사용자를 식별하는 역할) 외부 혹은 실제 다른 컴퓨터와 통신할때 쓴다. 
 > IPv4에선 '1.0.0.0'부터 '223.255.255.255'까지
 > 공인 IP는 전세계에서 유일한 IP 주소를 갖는다.
-> 할당 대상: 개인 또는 회사의 서버(라우터)
+> 할당 대상: 개인 또는 회사의 서버(라우터) (모뎀or공유기 밖)
 
 **사설 IP (Private IP)**: 내 컴퓨터에서 사용하는 로컬IP (ex 192.168.0.1)
 > 할당 대상: 개인 또는 회사의 기기
-> [라우터나 공유기가 있으면 공인 IP를 사설IP로 변환]
+> [라우터나 공유기가 있으면 공인 IP를 사설IP로 변환] (모뎀or공유기 안)
 
 
 **dns**: (Domain Name System)의 약자 (OSI 네트워크 계층: 응용 계층)
@@ -72,7 +73,7 @@ Eclipse를 통해 Tomcat에서 실행하는 JSP 파일은 Eclipse 프로젝트 �
 
 http://localhost:8080/WebTEST_1/login.jsp 를 dns로 나타낼때는 
 
-> 프로토콜 (Protocol): "http"는 사용되는 프로토콜을 나타냅니다. HTTP(HyperText Transfer Protocol)는 웹 브라우저와 웹 서버 간의 데이터 전송을 위한 표준 프로토콜입니다.
+> 프로토콜 (Protocol): "http"는 사용되는 프로토콜을 나타냅니다. HTTP(HyperText Transfer Protocol)는 웹 브라우저와 웹 서버(Tomcat) 간의 데이터 전송을 위한 표준 프로토콜입니다.
 
 > 호스트 (Host): "localhost"는 도메인 이름이나 IP 주소를 나타냅니다. 여기서 "localhost"는 특수한 경우로, 컴퓨터 자기 자신을 가리키는 표준 호스트 이름입니다. 일반적으로 "localhost"는 로컬 머신을 의미하며, 자신의 컴퓨터에서 서버를 실행하고 있는 경우에 사용됩니다.
 
