@@ -28,7 +28,7 @@ Eclipse를 통해 Tomcat에서 실행하는 JSP 파일은 Eclipse 프로젝트 �
 
 **TCP**: Transmission Control Protocol의 약자 (다른 컴퓨터와 데이터 통신을 하기 위한 다중화 규약의 일종) (OSI 네트워크 계층: 전송 계층)
 
-*프로토콜* = 컴퓨터 내부에서, 또는 컴퓨터 사이에서 데이터의 교환 방식을 정의하는 규칙 체계
+**프로토콜** = 컴퓨터 내부에서, 또는 컴퓨터 사이에서 데이터의 교환 방식을 정의하는 규칙 체계
 
 **HTTP** (HyperText Transfer Protocol) = 
 
