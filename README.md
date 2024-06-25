@@ -83,7 +83,6 @@ http://localhost:8080/WebTEST_1/login.jsp 를 dns로 나타낼때는
 
 > 이 구조를 DNS 관점에서 보면, "localhost"는 호스트 이름이고, 포트 번호는 "8080"입니다. DNS는 호스트 이름을 IP 주소로 해석하여 네트워크 통신을 가능하게 합니다. "WebTEST_1"은 경로의 일부로, 웹 애플리케이션의 이름이며, "login.jsp"는 해당 웹 애플리케이션 내의 특정 페이지를 가리킵니다.
 
-
-
-
+cmd -> nslookup www.naver.com
+cmd -> ipconfig
 
